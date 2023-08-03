@@ -5,8 +5,6 @@ import contact from '../assets/images/images/contact.svg';
 import cyn from '../assets/images/images/cyn.svg';
 import dollar from '../assets/images/images/dollar.svg';
 import eye from '../assets/images/images/eye.svg';
-import stats1 from '../assets/images/images/stats.svg';
-
 
 function Medal () {
 
@@ -89,7 +87,7 @@ function Stats1 () {
         <svg className="w-full h-full"  
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-            <svg  viewBox="0 0 36 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect fill={isHovered ? secondary : 'none'} 
                 width="48" height="48" fill-opacity="0.01"/>
                 <path  fill-rule="evenodd" clip-rule="evenodd" d="M4 42H44H4Z" />
