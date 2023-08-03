@@ -1,4 +1,4 @@
-import Orders from './customer/OrdersPage';
+import Svgmake from '../pages/Svgmake';
 
 
 
@@ -6,7 +6,7 @@ export default function Test() {
 
   return (
       <div>
-          <Orders />
+          <Svgmake />
       </div>
   )
 }

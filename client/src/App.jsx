@@ -30,7 +30,7 @@ export default function App() {
         <Route path='/products' element={<Products />}></Route>
         <Route path='/products/:category' element={<Template />}></Route>
         <Route path='/about' element={<About />}></Route>
-        
+
         <Route path='/test' element={<Test />}></Route>
         {/* <Route path='/invoice/:orderNumber' element={<Invoice />}></Route> */}
 
